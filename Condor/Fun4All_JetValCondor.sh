@@ -14,7 +14,7 @@ clusterID=$3
 events=0  # Default number of events
 
 # Create a directory based on the run number
-outputDir="/sphenix/tg/tg01/bulk/jbennett/TriggerAna/output/${runNumber}"
+outputDir="/sphenix/tg/tg01/bulk/jbennett/JetAna/output/${runNumber}"
 mkdir -p ${outputDir}  # Ensure the directory exists
 
 # Construct the output filenames within the new directory
