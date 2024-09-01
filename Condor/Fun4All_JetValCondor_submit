@@ -10,9 +10,9 @@ for runNumber in "${runNumbers[@]}"; do
 universe                = vanilla
 executable              = Fun4All_JetValCondor.sh
 arguments               = ${runNumber} \$(filename) \$(Cluster)
-log                     = /sphenix/tg/tg01/bulk/jbennett/TriggerAna/log/job.\$(Cluster).\$(Process).log
-output                  = /sphenix/tg/tg01/bulk/jbennett/TriggerAna/stdout/job.\$(Cluster).\$(Process).out
-error                   = /sphenix/tg/tg01/bulk/jbennett/TriggerAna/error/job.\$(Cluster).\$(Process).err
+log                     = /sphenix/tg/tg01/bulk/jbennett/JetAna/log/job.\$(Cluster).\$(Process).log
+output                  = /sphenix/tg/tg01/bulk/jbennett/JetAna/stdout/job.\$(Cluster).\$(Process).out
+error                   = /sphenix/tg/tg01/bulk/jbennett/JetAna/error/job.\$(Cluster).\$(Process).err
 request_memory          = 7GB
 queue filename from dst_calo_run2pp-000${runNumber}.list
 EOL
